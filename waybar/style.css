@@ -1,0 +1,7 @@
+/* Starfleet Noir, Waybar (for non-Omarchy-shell setups) */
+* { font-family: "JetBrainsMono Nerd Font"; font-size: 12px; }
+window#waybar { background: rgba(18,20,26,0.85); color: #a0a8cd; }
+#workspaces button { padding: 0 8px; color: #a0a8cd; border-bottom: 2px solid transparent; }
+#workspaces button.active { background: #bb9af7; color: #0a0b10; border-bottom: 2px solid #7dcfff; }
+#clock, #battery, #cpu, #memory, #network, #pulseaudio { padding: 0 10px; }
+#battery.warning, #cpu.warning { color: #ff9e64; }
